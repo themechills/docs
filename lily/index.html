@@ -1,489 +1,733 @@
-<!doctype html>
+<!DOCTYPE html>
 <html class="no-js" lang="">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <title>Lily Theme Documentation | ThemeChills</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="shortcut icon" href="img/favicon.ico" />
-    <link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+    <link
+      href="http://fonts.googleapis.com/css?family=Roboto:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="js/jquery.fitvids.js"></script>
     <script>
-    $(document).ready(function() {
+      $(document).ready(function () {
         $(".fitvids").fitVids();
-    });
+      });
     </script>
-</head>
+  </head>
 
-<body id="top">
+  <body id="top">
     <div id="header">
-        <ul>
-            <li id="logo">
-                <a href="http://themechills.com" class="sprite">themechills.com</a>
-            </li>
-            <li id="contents-link">
-                <a href="#top" class="top-link">Back to Top</a>
-            </li>
-            <li id="right-side">
-                <a href="http://themechills.com/preview/lily/" target="_blank" class="button top-link">
-                    Live Preview &rarr;
-                </a>
-            </li>
-        </ul>
+      <ul>
+        <li id="logo">
+          <a href="http://themechills.com" class="sprite">themechills.com</a>
+        </li>
+        <li id="contents-link">
+          <a href="#top" class="top-link">Back to Top</a>
+        </li>
+        <li id="right-side">
+          <a
+            href="http://themechills.com/preview/lily/"
+            target="_blank"
+            class="button top-link"
+          >
+            Live Preview &rarr;
+          </a>
+        </li>
+      </ul>
     </div>
     <!-- END #header -->
     <div id="container">
-        <div id="title">
-            <div class="row">
-                <div class="twelve columns">
-                    <h1>Lily</h1>
-                    <p>The documentation guide is for
-                        <a href="http://wp.themechills.com/lily/" target="_blank">
-                            Lily WordPress theme</a> by
-                        <a href="http://themechills.com" target="_blank">ThemeChills</a>.</p>
-                </div>
-                <!-- END .twelve.columns -->
-            </div>
-            <!-- END .row -->
+      <div id="title">
+        <div class="row">
+          <div class="twelve columns">
+            <h1>Lily</h1>
+            <p>
+              The documentation guide is for
+              <a href="http://wp.themechills.com/lily/" target="_blank">
+                Lily WordPress theme</a
+              >
+              by
+              <a href="http://themechills.com" target="_blank">ThemeChills</a>.
+            </p>
+          </div>
+          <!-- END .twelve.columns -->
         </div>
-        <!-- END #title -->
-        <div id="doc">
-            <div class="row">
-                <div class="twelve columns">
-                    <h2>Thanks for purchasing Lily!</h2>
-                    <p>
-                        I really appreciate the support and the opportunity to share my work with you. Please read the below details and get started setting up your theme!
-                    </p>
-                    <!-- BEGIN - GETTING STARTED -->
-                    <div class="h1-heading">
-                        <h1 id="GettingStarted">Getting Started</a></h1>
-                    </div>
-                    <div class="row wrapper">
-                        <div class="twelve columns">
-                            <h2>Included Files</h2>
-                            <p>
-                                After downloading all files and documentation you will have a <strong>.zip</strong> file available. Once you unzip this file you will find the following:
-                            </p>
-                            <ul>
-                                <li class="file folder">documentation</li>
-                                <li class="file folder">licensing</li>
-                                <li class="file zipped">lily.zip</li>
-                                <li class="file zipped">lily-child.zip</li>
-                                <li class="file zipped">lily-psd.zip</li>
-                                <li class="file paper">lily-countdown-snippet.txt</li>
-                                <li class="file paper">lily.wordpress.yyyy-mm-dd.xml</li>
-                            </ul>
-                            <p>
-                                The WordPress theme is labeled as <strong>lily.zip</strong>
-                            </p>
-                            <p class="highlight">
-                                Please note as further updates are made to the theme, the zip file will be suffixed with the corresponding version number (e.g. lily-2.0.zip).
-                            </p>
-                            <h2>WordPress Upload</h2>
-                            <p>
-                                To upload through your Dashboard, select <strong>Appearance &rarr; Themes &rarr; Add New &rarr; Upload Theme</strong>. Choose your theme zip file and select "Install Now". Once the theme is fully uploaded and installed, click "Activate" to activate the WordPress theme.
-                            </p>
-                            <p>
-                                When uploading your theme with the installer, make sure you are uploading the theme .zip file, not the entire package you downloaded. This means you will be uploading <strong>lily.zip</strong>.
-                            </p>
-                            <h2>FTP Upload</h2>
-                            <p>
-                                To manually upload your new WordPress theme, login with your credentials to your website and locate the wp-content folder in your WordPress install files. Upload the <strong>un-zipped</strong> Lily folder into the: wp-content/themes folder.
-                            </p>
-                            <p>
-                                Once uploaded, activate the theme by heading to <strong>Appearance &rarr; Themes</strong> menu in the WordPress Dashboard. Locate the Lily theme and hit "Activate".
-                            </p>
-                            <h2>Demo Content</h2>
-                            <p>
-                                You can install the theme demo content using the <strong>lily.wordpress.yyyy-mm-dd.xml</strong> file which comes included in the main download.
-                            </p>
-                            <p>
-                                The first thing you will need to do is go to <strong>Tools &rarr; Import</strong>. Bear in mind if you have never done this before you will be asked to install an importer. Make sure you select the WordPress option.
-                            </p>
-                            <p>
-                                After installing and activating the importer plugin you will now be able to upload the above <strong>.xml</strong> file. Just navigate to the same area as you did above and select the option you prefer.
-                            </p>
-                            <p>
-                                You can either assign the demo content to an existing author or you can import the one included within the demo content itself - there is no right or wrong here so just choose whichever option you prefer.
-                            </p>
-                            <p>
-                                Lastly, you will see another section labeled "Import Attachments". Within this, there is a checkbox which you can tick to <strong>Download and import file attachments</strong>.
-                            </p>
-                            <p class="highlight">
-                                Please note that this process can take some time to complete depending on the demo content file size which is being imported. In addition, please note that the uploaded attachments are <strong>placeholders only</strong> and not those found in the live preview.
-                            </p>
-                        </div>
-                        <!-- END .twelve.columns -->
-                    </div>
-                    <!-- END .row.wrapper -->
-                    <!-- BEGIN - PLUGINS -->
-                    <div class="h1-heading">
-                        <h1 id="plugins">Plugins</h1>
-                    </div>
-                    <div class="row wrapper">
-                        <div class="twelve columns">
-                            <h2>Install and Activate</h2>
-                            <p>
-                                Below is a list of recommended plugins to install that will help you get the most out of Lily. Although each plugin is optional, it is recommended that you install the Lily Toolkit to create a website similar to the live preview demo.
-                            </p>
-                            <h3>Lily Toolkit</h3>
-                            <p>
-                                The Lily Toolkit is a free plugin that provides the ability to add Events, Photo Galleries and Profiles to your site. Install this plugin if you want access to all these custom post types features.
-                            </p>
-                            <h3>Jetpack</h3>
-                            <p>
-                                A WordPress plugin by Automattic, the team who make WordPress. This fantastic plugin brings a large amount of features and enhancements that can be added to your WordPress site.
-                            </p>
-                            <p>
-                                Lily currently uses two modules of Jetpack. These are the <a href="http://jetpack.me/support/custom-css/">Custom CSS</a> and <a href="http://jetpack.me/support/site-icon/">Site Icon</a> modules. Once you install Jetpack you will be asked to connect to WordPress.com to enable the features.
-                            </p>
-                            <p>For more information on how to install Jetpack please <a href="http://jetpack.me/support/installing-jetpack/">visit this page</a>.</p>
-                            <h3>Contact Form 7</h3>
-                            <p>
-                                A free plugin that lets you add contact forms to your website. Creating and editing contact forms is super easy with CF7 and they integrate seamlessly with Lily.
-                                <br>
-                                <a href="https://wordpress.org/plugins/contact-form-7/">
-                                    <small>View plugin details</small>
-                                </a>
-                            </p>
-                            <h3>Wedding Registry</h3>
-                            <p>
-                                Enables shortcode registry links to be added in your WordPress theme.
-                                <br>
-                                <a href="https://wordpress.org/plugins/wedding-registry/">
-                                    <small>View plugin details</small>
-                                </a>
-                            </p>
-                            <h3>Responsive Styled Google Maps</h3>
-                            <p>
-                                A plugin which adds responsive and styled maps to pages and posts using a simple shortcode.
-                                <br>
-                                <a href="http://codecanyon.net/item/responsive-styled-google-maps-wordpress-plugin/3909576?ref=themechills">
-                                    <small>View plugin details</small>
-                                </a>
-                            </p>
-                            <h3>Subtitles</h3>
-                            <p>
-                                Subtitles is a free plugin that lets you add optional subtitles to your post and pages. Once active you'll see a Subtitle field under your Title field on post edit pages for your Profile custom post types.
-                                <br>
-                                <a href="https://wordpress.org/plugins/subtitles/">
-                                    <small>View plugin details</small>
-                                </a>
-                            </p>
-                            <h3>Instagram Feed</h3>
-                            <p>
-                                This plugin allows you to display beautifully clean, customizable, and responsive feeds from multiple Instagram accounts.
-                                <br>
-                                <a href="https://wordpress.org/plugins/instagram-feed/">
-                                    <small>View plugin details</small>
-                                </a>
-                            </p>
-                            <h3>Intuitive Custom Post Order</h3>
-                            <p>
-                                The Intuitive Custom Post Order plugin is <strong>only recommended</strong> and is not required. Only install this plugin if you want a simple and easy way to order your custom post types, pages, posts, taxonomies, etc.
-                                <br>
-                                <a href="https://wordpress.org/plugins/intuitive-custom-post-order/">
-                                    <small>View plugin details</small>
-                                </a>
-                            </p>
-                            <h2>How do I install the plugins?</h2>
-                            <div class="fitvids">
-                                <iframe width="680" height="383" src="https://www.youtube.com/embed/KAQnNAI5Wtc?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- .row -->
-                    <!-- BEGIN - THEME CUSTOMIZER -->
-                    <div class="h1-heading">
-                        <h1 id="customizer">Theme Customizer</h1>
-                    </div>
-                    <div class="row wrapper">
-                        <div class="twelve columns">
-                            <h2>Accessing the Customizer</h2>
-                            <p>
-                                Once you've activated the theme and installed all the necessary plugins, you should visit <strong>Appearance &rarr; Customize</strong> to setup the basic theme settings such as your logo, header images, slideshow, background, color palette and much more. Detailed instructions and tips can be found below.
-                            </p>
-                            <figure>
-                                <img src="img/options.jpg" alt="Customizer Options">
-                            </figure>
-                        </div>
-                        <!-- END .twelve.columns -->
-                        <div class="twelve columns">
-                            <h2>Theme Settings</h2>
-                            <p>
-                                <strong>Site Title, Tagline &amp; Logo:</strong> Set your site title, the tagline or upload a logo to replace default settings.
-                            </p>
-                            <p>
-                                <strong>Colors:</strong> Change body text, accent, hover, header text, background, alpha transparency colors to any color of your choice. To do this, simply click on the "Colors" section and use the color picker to choose your preference. You can also change the alpha transparency opacity level where the property is used. All changes will update live within the preview.
-                            </p>
-                            <p>
-                                <strong>Header Image:</strong> Lily uses this option to set the homepage header image. To set this up select an image from your library or upload a new image. For optimal resolution I would recommend to skip cropping and publish the image as is. You can also randomize this by adding multiple images to the collection, turn on the slideshow feature, as well as your speed preference.
-                            </p>
-                            <p class="highlight">
-                                Please make sure not to upload images which are very large as this will affect your page loading time. The recommended dimension is <strong>1920 x 1080</strong>. I would also strongly recommend these images be losslessly compressed if possible.
-                            </p>
-                            <p>
-                                <strong>Header Hero Text:</strong> Customize your hero text area to suit your needs. You can also add a call to action to whichever page you wish for your guests to visit, so easy.
-                            </p>
-                            <p>
-                                <strong>Background Image:</strong> Upload a background image which is used across the whole webpage. Once uploaded you will be given additional options to select from such as background repeat, position and attachment.
-                            </p>
-                            <p>
-                                <strong>Navigation:</strong> Select from your list of existing menus. Your selection will be added to the top site navigation area.
-                            </p>
-                            <p>
-                                <strong>Widgets:</strong> You can add new widgets or remove existing ones from the available widget areas. More details of what these widgets are can be found in the
-                                <a href="#widgets">Widgets</a> section of the documentation.
-                            </p>
-                            <p>
-                                <strong>Static Front Page:</strong> Set your front page and posts page from within the customizer.
-                            </p>
-                            <h2>How do I use the customizer?</h2>
-                            <div class="fitvids">
-                                <iframe width="680" height="383" src="https://www.youtube.com/embed/N3XayxgrlVk?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                        <!-- END .twelve.columns -->
-                    </div>
-                    <!-- END .row.wrapper -->
-                    <!-- BEGIN - PAGE TEMPLATES -->
-                    <div class="h1-heading">
-                        <h1 id="HomePage">Page Templates</h1>
-                    </div>
-                    <div class="row wrapper">
-                        <div class="twelve columns">
-                            <h2>Homepage Setup</h2>
-                            <p>
-                                The theme includes a custom homepage page template that allows you to have a completely widgetized homepage layout.
-                            </p>
-                            <p>
-                                Simply create a new page and label it whatever you want. I called mine Homepage to keep things simple.
-                            </p>
-                            <p>
-                                Next, select the <strong>Homepage</strong> page template option found in the Page Attributes meta box. Click on the Publish button and you're done.
-                            </p>
-                            <p>
-                                Once you have followed the above steps, make sure you go <strong>Settings &rarr; Reading</strong> and select this same page as your Front page option. Your posts page can have an alternate page assigned to it as well.
-                            </p>
-                        </div>
-                        <div class="twelve columns">
-                            <h2>Blog Setup</h2>
-                            <p>
-                                If you chose to setup your homepage to use the homepage template above, you'll need to also tell WordPress which page will display your posts.
-                            </p>
-                            <p>
-                                To do this go to <strong>Pages &rarr; Add New</strong> to create a new page to be used as the blog page. Add a title to this page - in the live preview I have simply called this page Blog.
-                            </p>
-                            <p>
-                                Once you have created the page and given it the name you can then publish it.
-                            </p>
-                            <p class="highlight">
-                                Please note, you do not need to add anything in the post editor as this page will only be created to let WordPress know what page to assign the blog posts to.
-                            </p>
-                            <p>
-                                You can now go into <strong>Settings &rarr; Reading</strong> and assign the Posts page to the Blog page you created. Make sure you Save Changes once you are happy with your settings.
-                            </p>
-                        </div>
-                        <div class="twelve columns">
-                            <h2>Timeline Page Setup</h2>
-                            <p>
-                                The theme includes a custom timeline page template that allows you to add your information in timeline format.
-                            </p>
-                            <p>
-                                Watch this video to learn how to create a timeline page.
-                            </p>
-                            <div class="fitvids">
-                                <iframe width="680" height="383" src="https://www.youtube.com/embed/RjOjsx037Ek?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                        <div class="twelve columns">
-                            <h2>Contact Page Setup</h2>
-                            <p>
-                                The theme uses Contact Form 7 plugin for adding contact forms to your pages.
-                            </p>
-                            <p>
-                                Simply create your form with the information you wish to capture, copy the shortcode and paste it either in a text widget or post editor.
-                            </p>
-                            <p>For more information on how this plugin works make sure to visit the documentation page found <a href="http://contactform7.com/docs/">here</a>.</p>
-                        </div>
-                    </div>
-                    <!-- END .row.wrapper -->
-                    <!-- BEGIN - WIDGETS -->
-                    <div class="h1-heading">
-                        <h1 id="widgets">Widgets</h1>
-                    </div>
-                    <div class="row wrapper">
-                        <div class="twelve columns">
-                            <h2>Included Widgets</h2>
-                            <p>
-                                Lily comes with four widgetized locations, these include the homepage, homepage hero text, posts or pages widgets and a sidebar.
-                            </p>
-                            <p>
-                                You can add widgets by visting <strong>Appearance &rarr; Widgets</strong>, or through the theme customizer.
-                            </p>
-                            <p>
-                                In addition to the native WordPress widgets, the theme comes with the below custom widgets which you can drag and drop as needed.
-                            </p>
-                            <ul>
-                                <li>ThemeChills Callout</li>
-                                <li>ThemeChills Countdown Timer</li>
-                                <li>ThemeChills Events</li>
-                                <li>ThemeChills Map</li>
-                                <li>ThemeChills Photos</li>
-                                <li>ThemeChills Profiles</li>
-                                <li>ThemeChills Text</li>
-                                <li>Instagram Feed (ThemeChills)</li>
-                            </ul>
-                            <p class="highlight">
-                                Please note, that even though these widgets can be used site wide, the primary usage for them is to be used on your site homepage.
-                            </p>
-                            <h2>Instagram Feed Widget</h2>
-                            <p>
-                                To start using populating your Instagram feed on your website follow the steps below:
-                            </p>
-                            <ul>
-                                <li>Visit the <a href="https://wordpress.org/plugins/instagram-feed/installation/">Instagram Feed WordPress plugin</a> page and follow the installation steps.</li>
-                                <li>Next, go to <strong>Appearance &rarr; Customize</strong>.</li>
-                                <li>Once you're in the Customizer, click the <strong>Widgets &rarr; Homepage</strong> menu items.</li>
-                                <li>Click on the Add a Widget button.</li>
-                                <li>Under the "Search widgets..." text field type the "Insta" keyword.</li>
-                                <li>Click on the Instagram Feed (ThemeChills) widget to add to your homepage widget area.</li>
-                                <li>Add your required details to the widget.</li>
-                                <li>Save and Publish once you're happy with your changes.</li>
-                            </ul>
-                            <p class="highlight">
-                                Please note, due to the June 1, 2016 Instagram policy changes for partner platforms you will have to upgrade to the Pro version of the plugin to show posts by Hashtag.<br> <a href="https://smashballoon.com/instagram-feed?smashid=143">Click here link to find out more</a>.
-                            </p>
-                            <h2>Countdown Timer</h2>
-                            <p>
-                                If you would like to setup your countdown timer widget I have conveniently included a text file with the required format you will need. Essentially it is the same snippet which is used in the live preview.
-                            </p>
-                            <p>
-                                This snippet is labeled <strong>lily-countdown-snippet.txt</strong> and can be found within your main download files.
-                            </p>
-                            <h2>Photo Carousel</h2>
-                            <p>
-                                In this video I will show you how to setup your photo carousel on the themes homepage.
-                            </p>
-                            <div class="fitvids">
-                                <iframe width="680" height="383" src="https://www.youtube.com/embed/B3eBgMXlEas?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-                            </div>
-                            <h2>Profiles</h2>
-                            <p>
-                                In this video I will show you how to setup your profiles on the themes homepage.
-                            </p>
-                            <div class="fitvids">
-                                <iframe width="680" height="383" src="https://www.youtube.com/embed/cJGZIqWN9_8?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-                            </div>
-                            <h2>Google Map &amp; Callout Widgets</h2>
-                            <p>
-                                In this video I will show you how to setup your Google map as well as your callout areas.
-                            </p>
-                            <div class="fitvids">
-                                <iframe width="680" height="383" src="https://www.youtube.com/embed/8P4BdNew3x4?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                        <!-- END .twelve.columns -->
-                    </div>
-                    <!-- END .row.wrapper -->
-                    <!-- BEGIN - INCLUDED TEMPLATES -->
-                    <div class="h1-heading">
-                        <h1 id="ThemeTemplates">Support</h1>
-                    </div>
-                    <div class="row wrapper">
-                        <div class="twelve columns">
-                            <h2>Setup and Bugs</h2>
-                            <p>
-                                If you're having a problem with the theme or found a bug please let me know on the
-                                <a href="http://themeforest.net/item/#/support">Item Support Tab</a> and I will be more than happy to help you out.
-                            </p>
-                            <p>
-                                Also, if you are experiencing a theme issue, please first turn off all third party plugins to see if the problem persists. If it does, send me your details through the link mentioned above.
-                            </p>
-                            <p class="highlight">
-                                Please note, I'm happy to help with setup &amp; bugs you may stumble upon though bear in mind I cannot support CSS customizations. For customization requests please visit
-                                <a href="http://themechills.com/customization/">http://themechills.com/customization/</a>
-                            </p>
-                        </div>
-                        <!-- END .twelve.columns -->
-                    </div>
-                    <!-- END .row.wrapper -->
-                    <!-- BEGIN - TRANSLATION READY -->
-                    <div class="h1-heading">
-                        <h1 id="TranslationReady">Translating Your Theme</h1>
-                    </div>
-                    <div class="row wrapper">
-                        <div class="twelve columns">
-                            <h2>Download Poedit</h2>
-                            <p>
-                                The first thing I would recommend is for you to download a translation program. I use <a href="http://poedit.net/" target="_blank">Poedit</a> to create all my translation files.
-                            </p>
-                            <h2>Creating Your File</h2>
-                            <p>
-                                Though at first the setup may look a bit daunting it's actually quite straight forward. The video below shows a good example of how this is done.
-                            </p>
-                            <div class="fitvids">
-                                <iframe width="680" height="383" src="https://www.youtube.com/embed/1xqcxncNmT0" frameborder="0" allowfullscreen></iframe>
-                                <br />
-                                <br />
-                            </div>
-                            <p>
-                                Here is the link to the <a href="http://www.gnu.org/software/gettext/manual/html_node/Usual-Language-Codes.html" target="_blank">GNU language codes</a>.
-                            </p>
-                            <p class="highlight">
-                                Please note, as of WordPress version 4+ there is no need to change your WPLANG settings. Simply drop your .po file in the languages folder and then update your "Site Language" setting through the admin view under <strong>Settings &rarr; General</strong>. Also the theme comes with a Spanish .po file included for free.
-                            </p>
-                        </div>
-                    </div>
-                    <!-- END - TRANSLATION READY -->
-                    <!-- BEGIN - FILES & SOURCES TEMPLATES -->
-                    <div class="h1-heading">
-                        <h1 id="FilesSources">Files &amp; Sources</h1>
-                    </div>
-                    <div class="row wrapper">
-                        <div class="twelve columns">
-                            <h2>Included Stylesheets</h2>
-                            <p>
-                                These are the primary CSS files used for general front-end styling. Use this to customize your theme even further. It is recommended to use the child theme version of this file to avoid losing any theme specific modifications you may make, should there be an update to the parent theme.
-                            </p>
-                            <ul>
-                                <li>style.css - Primary stylesheet</li>
-                                <li>owl.carousel.css - Carousel stylesheet</li>
-                            </ul>
-                            <h2>Included Javascript</h2>
-                            <p>
-                                These are the various attribution links to the Javascript files included or modified to work with in this theme.
-                            </p>
-                            <ul>
-                                <li>FitVids - http://fitvidsjs.com</li>
-                                <li>AnimOnScroll.js - http://www.codrops.com</li>
-                                <li>countdown.min.js - http://www.hashemian.com/</li>
-                                <li>owl.carousel.min.js - http://www.owlcarousel.owlgraphic.com/</li>
-                            </ul>
-                            <h2>Photoshop</h2>
-                            <p>
-                                These is a Photoshop working files that can be used to modify your existing theme if needed.
-                            </p>
-                            <ul>
-                                <li>lily-homepage.psd</li>
-                            </ul>
-                            <h2>Images</h2>
-                            <p>
-                                Please note that no images are included as part of the main download file. Live preview images have been used for demo purposes only and with the written permission of the photographer, thanks Andre (<a href="http://www.blackframe.co.za/">Black Frame Photography</a>).
-                            </p>
-                        </div>
-                        <!-- END .twelve.columns -->
-                    </div>
-                    <!-- END .row.wrapper -->
-                </div>
-                <!-- END .twelve.columns -->
+        <!-- END .row -->
+      </div>
+      <!-- END #title -->
+      <div id="doc">
+        <div class="row">
+          <div class="twelve columns">
+            <h2>Thanks for purchasing Lily!</h2>
+            <p>
+              I really appreciate the support and the opportunity to share my
+              work with you. Please read the below details and get started
+              setting up your theme!
+            </p>
+            <!-- BEGIN - GETTING STARTED -->
+            <div class="h1-heading">
+              <h1 id="GettingStarted">Getting Started</h1>
             </div>
-            <!-- END #.row -->
+            <div class="row wrapper">
+              <div class="twelve columns">
+                <h2>Included Files</h2>
+                <p>
+                  After downloading all files and documentation you will have a
+                  <strong>.zip</strong> file available. Once you unzip this file
+                  you will find the following:
+                </p>
+                <ul>
+                  <li class="file folder">documentation</li>
+                  <li class="file folder">licensing</li>
+                  <li class="file zipped">lily.zip</li>
+                  <li class="file zipped">lily-child.zip</li>
+                  <li class="file zipped">lily-psd.zip</li>
+                  <li class="file paper">lily-countdown-snippet.txt</li>
+                  <li class="file paper">lily.wordpress.yyyy-mm-dd.xml</li>
+                </ul>
+                <p>
+                  The WordPress theme is labeled as <strong>lily.zip</strong>
+                </p>
+                <p class="highlight">
+                  Please note as further updates are made to the theme, the zip
+                  file will be suffixed with the corresponding version number
+                  (e.g. lily-2.0.zip).
+                </p>
+                <h2>WordPress Upload</h2>
+                <p>
+                  To upload through your Dashboard, select
+                  <strong
+                    >Appearance &rarr; Themes &rarr; Add New &rarr; Upload
+                    Theme</strong
+                  >. Choose your theme zip file and select "Install Now". Once
+                  the theme is fully uploaded and installed, click "Activate" to
+                  activate the WordPress theme.
+                </p>
+                <p>
+                  When uploading your theme with the installer, make sure you
+                  are uploading the theme .zip file, not the entire package you
+                  downloaded. This means you will be uploading
+                  <strong>lily.zip</strong>.
+                </p>
+                <h2>FTP Upload</h2>
+                <p>
+                  To manually upload your new WordPress theme, login with your
+                  credentials to your website and locate the wp-content folder
+                  in your WordPress install files. Upload the
+                  <strong>un-zipped</strong> Lily folder into the:
+                  wp-content/themes folder.
+                </p>
+                <p>
+                  Once uploaded, activate the theme by heading to
+                  <strong>Appearance &rarr; Themes</strong> menu in the
+                  WordPress Dashboard. Locate the Lily theme and hit "Activate".
+                </p>
+                <h2>Demo Content</h2>
+                <p>
+                  You can install the theme demo content using the
+                  <strong>lily.wordpress.yyyy-mm-dd.xml</strong> file which
+                  comes included in the main download.
+                </p>
+                <p>
+                  The first thing you will need to do is go to
+                  <strong>Tools &rarr; Import</strong>. Bear in mind if you have
+                  never done this before you will be asked to install an
+                  importer. Make sure you select the WordPress option.
+                </p>
+                <p>
+                  After installing and activating the importer plugin you will
+                  now be able to upload the above <strong>.xml</strong> file.
+                  Just navigate to the same area as you did above and select the
+                  option you prefer.
+                </p>
+                <p>
+                  You can either assign the demo content to an existing author
+                  or you can import the one included within the demo content
+                  itself - there is no right or wrong here so just choose
+                  whichever option you prefer.
+                </p>
+                <p>
+                  Lastly, you will see another section labeled "Import
+                  Attachments". Within this, there is a checkbox which you can
+                  tick to <strong>Download and import file attachments</strong>.
+                </p>
+                <p class="highlight">
+                  Please note that this process can take some time to complete
+                  depending on the demo content file size which is being
+                  imported. In addition, please note that the uploaded
+                  attachments are <strong>placeholders only</strong> and not
+                  those found in the live preview.
+                </p>
+              </div>
+              <!-- END .twelve.columns -->
+            </div>
+            <!-- END .row.wrapper -->
+            <!-- BEGIN - PLUGINS -->
+            <div class="h1-heading">
+              <h1 id="plugins">Plugins</h1>
+            </div>
+            <div class="row wrapper">
+              <div class="twelve columns">
+                <h2>Install and Activate</h2>
+                <p>
+                  Below is a list of recommended plugins to install that will
+                  help you get the most out of Lily. Although some plugins are
+                  optional, it is strongly recommended you install the Lily
+                  Toolkit to create a website similar to the live preview demo.
+                </p>
+                <h3>Lily Toolkit</h3>
+                <p>
+                  Provides the ability to add events, photo galleries and
+                  profiles to your site. Install this plugin if you want access
+                  to all these custom post types features.
+                </p>
+                <h3>Contact Form 7</h3>
+                <p>
+                  A free plugin that lets you add contact forms to your website.
+                  Creating and editing contact forms is super easy with CF7 and
+                  they integrate seamlessly with Lily.
+                  <br />
+                  <a href="https://wordpress.org/plugins/contact-form-7/">
+                    <small>View plugin details</small>
+                  </a>
+                </p>
+                <h3>Classic Widgets</h3>
+                <p>
+                  Restores previous widgets settings screens and disables the
+                  block editor from managing widgets. There is no other
+                  configuration, the classic widgets settings screens are
+                  enabled or disabled by either enabling or disabling this
+                  plugin.
+                  <br />
+                  <a href="https://wordpress.org/plugins/classic-widgets/">
+                    <small>View plugin details</small>
+                  </a>
+                </p>
+                <h3>Responsive Styled Google Maps</h3>
+                <p>
+                  A plugin which adds responsive and styled maps to pages and
+                  posts using a simple shortcode.
+                  <br />
+                  <a
+                    href="http://codecanyon.net/item/responsive-styled-google-maps-wordpress-plugin/3909576?ref=themechills"
+                  >
+                    <small>View plugin details</small>
+                  </a>
+                </p>
+                <h3>Subtitles</h3>
+                <p>
+                  Subtitles is a free plugin that lets you add optional
+                  subtitles to your post and pages. Once active you'll see a
+                  Subtitle field under your Title field on post edit pages for
+                  your Profile custom post types.
+                  <br />
+                  <a href="https://wordpress.org/plugins/subtitles/">
+                    <small>View plugin details</small>
+                  </a>
+                </p>
+                <h3>Instagram Feed</h3>
+                <p>
+                  This plugin allows you to display beautifully clean,
+                  customizable, and responsive feeds from multiple Instagram
+                  accounts.
+                  <br />
+                  <a href="https://wordpress.org/plugins/instagram-feed/">
+                    <small>View plugin details</small>
+                  </a>
+                </p>
+                <h3>Intuitive Custom Post Order</h3>
+                <p>
+                  The Intuitive Custom Post Order plugin is
+                  <strong>only recommended</strong> and is not required. Only
+                  install this plugin if you want a simple and easy way to order
+                  your custom post types, pages, posts, taxonomies, etc.
+                  <br />
+                  <a
+                    href="https://wordpress.org/plugins/intuitive-custom-post-order/"
+                  >
+                    <small>View plugin details</small>
+                  </a>
+                </p>
+                <h2>How do I install the plugins?</h2>
+                <div class="fitvids">
+                  <iframe
+                    width="680"
+                    height="383"
+                    src="https://www.youtube.com/embed/KAQnNAI5Wtc?rel=0&amp;showinfo=0"
+                    frameborder="0"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+            <!-- .row -->
+            <!-- BEGIN - THEME CUSTOMIZER -->
+            <div class="h1-heading">
+              <h1 id="customizer">Theme Customizer</h1>
+            </div>
+            <div class="row wrapper">
+              <div class="twelve columns">
+                <h2>Accessing the Customizer</h2>
+                <p>
+                  Once you've activated the theme and installed all the
+                  necessary plugins, you should visit
+                  <strong>Appearance &rarr; Customize</strong> to setup the
+                  basic theme settings such as your logo, header images,
+                  slideshow, background, color palette and much more. Detailed
+                  instructions and tips can be found below.
+                </p>
+                <figure>
+                  <img src="img/options.jpg" alt="Customizer Options" />
+                </figure>
+              </div>
+              <!-- END .twelve.columns -->
+              <div class="twelve columns">
+                <h2>Theme Settings</h2>
+                <p>
+                  <strong>Site Title, Tagline &amp; Logo:</strong> Set your site
+                  title, the tagline or upload a logo to replace default
+                  settings.
+                </p>
+                <p>
+                  <strong>Colors:</strong> Change body text, accent, hover,
+                  header text, background, alpha transparency colors to any
+                  color of your choice. To do this, simply click on the "Colors"
+                  section and use the color picker to choose your preference.
+                  You can also change the alpha transparency opacity level where
+                  the property is used. All changes will update live within the
+                  preview.
+                </p>
+                <p>
+                  <strong>Header Image:</strong> Lily uses this option to set
+                  the homepage header image. To set this up select an image from
+                  your library or upload a new image. For optimal resolution I
+                  would recommend to skip cropping and publish the image as is.
+                  You can also randomize this by adding multiple images to the
+                  collection, turn on the slideshow feature, as well as your
+                  speed preference.
+                </p>
+                <p class="highlight">
+                  Please make sure not to upload images which are very large as
+                  this will affect your page loading time. The recommended
+                  dimension is <strong>1920 x 1080</strong>. I would also
+                  strongly recommend these images be losslessly compressed if
+                  possible.
+                </p>
+                <p>
+                  <strong>Header Hero Text:</strong> Customize your hero text
+                  area to suit your needs. You can also add a call to action to
+                  whichever page you wish for your guests to visit, so easy.
+                </p>
+                <p>
+                  <strong>Background Image:</strong> Upload a background image
+                  which is used across the whole webpage. Once uploaded you will
+                  be given additional options to select from such as background
+                  repeat, position and attachment.
+                </p>
+                <p>
+                  <strong>Navigation:</strong> Select from your list of existing
+                  menus. Your selection will be added to the top site navigation
+                  area.
+                </p>
+                <p>
+                  <strong>Widgets:</strong> You can add new widgets or remove
+                  existing ones from the available widget areas. More details of
+                  what these widgets are can be found in the
+                  <a href="#widgets">Widgets</a> section of the documentation.
+                </p>
+                <p>
+                  <strong>Static Front Page:</strong> Set your front page and
+                  posts page from within the customizer.
+                </p>
+                <h2>How do I use the customizer?</h2>
+                <div class="fitvids">
+                  <iframe
+                    width="680"
+                    height="383"
+                    src="https://www.youtube.com/embed/N3XayxgrlVk?rel=0&amp;controls=0&amp;showinfo=0"
+                    frameborder="0"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              </div>
+              <!-- END .twelve.columns -->
+            </div>
+            <!-- END .row.wrapper -->
+            <!-- BEGIN - PAGE TEMPLATES -->
+            <div class="h1-heading">
+              <h1 id="HomePage">Page Templates</h1>
+            </div>
+            <div class="row wrapper">
+              <div class="twelve columns">
+                <h2>Homepage Setup</h2>
+                <p>
+                  The theme includes a custom homepage page template that allows
+                  you to have a completely widgetized homepage layout.
+                </p>
+                <p>
+                  Simply create a new page and label it whatever you want. I
+                  called mine Homepage to keep things simple.
+                </p>
+                <p>
+                  Next, select the <strong>Homepage</strong> page template
+                  option found in the Page Attributes meta box. Click on the
+                  Publish button and you're done.
+                </p>
+                <p>
+                  Once you have followed the above steps, make sure you go
+                  <strong>Settings &rarr; Reading</strong> and select this same
+                  page as your Front page option. Your posts page can have an
+                  alternate page assigned to it as well.
+                </p>
+              </div>
+              <div class="twelve columns">
+                <h2>Blog Setup</h2>
+                <p>
+                  If you chose to setup your homepage to use the homepage
+                  template above, you'll need to also tell WordPress which page
+                  will display your posts.
+                </p>
+                <p>
+                  To do this go to <strong>Pages &rarr; Add New</strong> to
+                  create a new page to be used as the blog page. Add a title to
+                  this page - in the live preview I have simply called this page
+                  Blog.
+                </p>
+                <p>
+                  Once you have created the page and given it the name you can
+                  then publish it.
+                </p>
+                <p class="highlight">
+                  Please note, you do not need to add anything in the post
+                  editor as this page will only be created to let WordPress know
+                  what page to assign the blog posts to.
+                </p>
+                <p>
+                  You can now go into
+                  <strong>Settings &rarr; Reading</strong> and assign the Posts
+                  page to the Blog page you created. Make sure you Save Changes
+                  once you are happy with your settings.
+                </p>
+              </div>
+              <div class="twelve columns">
+                <h2>Timeline Page Setup</h2>
+                <p>
+                  The theme includes a custom timeline page template that allows
+                  you to add your information in timeline format.
+                </p>
+                <p>Watch this video to learn how to create a timeline page.</p>
+                <div class="fitvids">
+                  <iframe
+                    width="680"
+                    height="383"
+                    src="https://www.youtube.com/embed/RjOjsx037Ek?rel=0&amp;controls=0&amp;showinfo=0"
+                    frameborder="0"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              </div>
+              <div class="twelve columns">
+                <h2>Contact Page Setup</h2>
+                <p>
+                  The theme uses Contact Form 7 plugin for adding contact forms
+                  to your pages.
+                </p>
+                <p>
+                  Simply create your form with the information you wish to
+                  capture, copy the shortcode and paste it either in a text
+                  widget or post editor.
+                </p>
+                <p>
+                  For more information on how this plugin works make sure to
+                  visit the documentation page found
+                  <a href="http://contactform7.com/docs/">here</a>.
+                </p>
+              </div>
+            </div>
+            <!-- END .row.wrapper -->
+            <!-- BEGIN - WIDGETS -->
+            <div class="h1-heading">
+              <h1 id="widgets">Widgets</h1>
+            </div>
+            <div class="row wrapper">
+              <div class="twelve columns">
+                <h2>Included Widgets</h2>
+                <p>
+                  Lily comes with four widgetized locations, these include the
+                  homepage, homepage hero text, posts or pages widgets and a
+                  sidebar.
+                </p>
+                <p>
+                  You can add widgets by visting
+                  <strong>Appearance &rarr; Widgets</strong>, or through the
+                  theme customizer.
+                </p>
+                <p>
+                  In addition to the native WordPress widgets, the theme comes
+                  with the below custom widgets which you can drag and drop as
+                  needed.
+                </p>
+                <ul>
+                  <li>ThemeChills Callout</li>
+                  <li>ThemeChills Countdown Timer</li>
+                  <li>ThemeChills Events</li>
+                  <li>ThemeChills Map</li>
+                  <li>ThemeChills Photos</li>
+                  <li>ThemeChills Profiles</li>
+                  <li>ThemeChills Text</li>
+                  <li>Instagram Feed (ThemeChills)</li>
+                </ul>
+                <p class="highlight">
+                  Please note, that even though these widgets can be used site
+                  wide, the primary usage for them is to be used on your site
+                  homepage.
+                </p>
+                <h2>Instagram Feed Widget</h2>
+                <p>
+                  To start using populating your Instagram feed on your website
+                  follow the steps below:
+                </p>
+                <ul>
+                  <li>
+                    Visit the
+                    <a
+                      href="https://wordpress.org/plugins/instagram-feed/installation/"
+                      >Instagram Feed WordPress plugin</a
+                    >
+                    page and follow the installation steps.
+                  </li>
+                  <li>
+                    Next, go to <strong>Appearance &rarr; Customize</strong>.
+                  </li>
+                  <li>
+                    Once you're in the Customizer, click the
+                    <strong>Widgets &rarr; Homepage</strong> menu items.
+                  </li>
+                  <li>Click on the Add a Widget button.</li>
+                  <li>
+                    Under the "Search widgets..." text field type the "Insta"
+                    keyword.
+                  </li>
+                  <li>
+                    Click on the Instagram Feed (ThemeChills) widget to add to
+                    your homepage widget area.
+                  </li>
+                  <li>Add your required details to the widget.</li>
+                  <li>Save and Publish once you're happy with your changes.</li>
+                </ul>
+                <p class="highlight">
+                  Please note, due to the June 1, 2016 Instagram policy changes
+                  for partner platforms you will have to upgrade to the Pro
+                  version of the plugin to show posts by Hashtag.<br />
+                  <a href="https://smashballoon.com/instagram-feed?smashid=143"
+                    >Click here link to find out more</a
+                  >.
+                </p>
+                <h2>Countdown Timer</h2>
+                <p>
+                  If you would like to setup your countdown timer widget I have
+                  conveniently included a text file with the required format you
+                  will need. Essentially it is the same snippet which is used in
+                  the live preview.
+                </p>
+                <p>
+                  This snippet is labeled
+                  <strong>lily-countdown-snippet.txt</strong> and can be found
+                  within your main download files.
+                </p>
+                <h2>Photo Carousel</h2>
+                <p>
+                  In this video I will show you how to setup your photo carousel
+                  on the themes homepage.
+                </p>
+                <div class="fitvids">
+                  <iframe
+                    width="680"
+                    height="383"
+                    src="https://www.youtube.com/embed/B3eBgMXlEas?rel=0&amp;controls=0&amp;showinfo=0"
+                    frameborder="0"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <h2>Profiles</h2>
+                <p>
+                  In this video I will show you how to setup your profiles on
+                  the themes homepage.
+                </p>
+                <div class="fitvids">
+                  <iframe
+                    width="680"
+                    height="383"
+                    src="https://www.youtube.com/embed/cJGZIqWN9_8?rel=0&amp;controls=0&amp;showinfo=0"
+                    frameborder="0"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <h2>Google Map &amp; Callout Widgets</h2>
+                <p>
+                  In this video I will show you how to setup your Google map as
+                  well as your callout areas.
+                </p>
+                <div class="fitvids">
+                  <iframe
+                    width="680"
+                    height="383"
+                    src="https://www.youtube.com/embed/8P4BdNew3x4?rel=0&amp;controls=0&amp;showinfo=0"
+                    frameborder="0"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              </div>
+              <!-- END .twelve.columns -->
+            </div>
+            <!-- END .row.wrapper -->
+            <!-- BEGIN - INCLUDED TEMPLATES -->
+            <div class="h1-heading">
+              <h1 id="ThemeTemplates">Support</h1>
+            </div>
+            <div class="row wrapper">
+              <div class="twelve columns">
+                <h2>Setup and Bugs</h2>
+                <p>
+                  If you're having a problem with the theme or found a bug
+                  please let me know on the
+                  <a href="http://themeforest.net/item/#/support"
+                    >Item Support Tab</a
+                  >
+                  and I will be more than happy to help you out.
+                </p>
+                <p>
+                  Also, if you are experiencing a theme issue, please first turn
+                  off all third party plugins to see if the problem persists. If
+                  it does, send me your details through the link mentioned
+                  above.
+                </p>
+                <p class="highlight">
+                  Please note, I'm happy to help with setup &amp; bugs you may
+                  stumble upon though bear in mind I cannot support CSS
+                  customizations. For customization requests please visit
+                  <a href="http://themechills.com/customization/"
+                    >http://themechills.com/customization/</a
+                  >
+                </p>
+              </div>
+              <!-- END .twelve.columns -->
+            </div>
+            <!-- END .row.wrapper -->
+            <!-- BEGIN - TRANSLATION READY -->
+            <div class="h1-heading">
+              <h1 id="TranslationReady">Translating Your Theme</h1>
+            </div>
+            <div class="row wrapper">
+              <div class="twelve columns">
+                <h2>Download Poedit</h2>
+                <p>
+                  The first thing I would recommend is for you to download a
+                  translation program. I use
+                  <a href="http://poedit.net/" target="_blank">Poedit</a> to
+                  create all my translation files.
+                </p>
+                <h2>Creating Your File</h2>
+                <p>
+                  Though at first the setup may look a bit daunting it's
+                  actually quite straight forward. The video below shows a good
+                  example of how this is done.
+                </p>
+                <div class="fitvids">
+                  <iframe
+                    width="680"
+                    height="383"
+                    src="https://www.youtube.com/embed/1xqcxncNmT0"
+                    frameborder="0"
+                    allowfullscreen
+                  ></iframe>
+                  <br />
+                  <br />
+                </div>
+                <p>
+                  Here is the link to the
+                  <a
+                    href="http://www.gnu.org/software/gettext/manual/html_node/Usual-Language-Codes.html"
+                    target="_blank"
+                    >GNU language codes</a
+                  >.
+                </p>
+                <p class="highlight">
+                  Please note, as of WordPress version 4+ there is no need to
+                  change your WPLANG settings. Simply drop your .po file in the
+                  languages folder and then update your "Site Language" setting
+                  through the admin view under
+                  <strong>Settings &rarr; General</strong>. Also the theme comes
+                  with a Spanish .po file included for free.
+                </p>
+              </div>
+            </div>
+            <!-- END - TRANSLATION READY -->
+            <!-- BEGIN - FILES & SOURCES TEMPLATES -->
+            <div class="h1-heading">
+              <h1 id="FilesSources">Files &amp; Sources</h1>
+            </div>
+            <div class="row wrapper">
+              <div class="twelve columns">
+                <h2>Included Stylesheets</h2>
+                <p>
+                  These are the primary CSS files used for general front-end
+                  styling. Use this to customize your theme even further. It is
+                  recommended to use the child theme version of this file to
+                  avoid losing any theme specific modifications you may make,
+                  should there be an update to the parent theme.
+                </p>
+                <ul>
+                  <li>style.css - Primary stylesheet</li>
+                  <li>owl.carousel.css - Carousel stylesheet</li>
+                </ul>
+                <h2>Included Javascript</h2>
+                <p>
+                  These are the various attribution links to the Javascript
+                  files included or modified to work with in this theme.
+                </p>
+                <ul>
+                  <li>FitVids - http://fitvidsjs.com</li>
+                  <li>AnimOnScroll.js - http://www.codrops.com</li>
+                  <li>countdown.min.js - http://www.hashemian.com/</li>
+                  <li>
+                    owl.carousel.min.js - http://www.owlcarousel.owlgraphic.com/
+                  </li>
+                </ul>
+                <h2>Photoshop</h2>
+                <p>
+                  These is a Photoshop working files that can be used to modify
+                  your existing theme if needed.
+                </p>
+                <ul>
+                  <li>lily-homepage.psd</li>
+                </ul>
+                <h2>Images</h2>
+                <p>
+                  Please note that no images are included as part of the main
+                  download file. Live preview images have been used for demo
+                  purposes only and with the written permission of the
+                  photographer, thanks Andre (<a
+                    href="http://www.blackframe.co.za/"
+                    >Black Frame Photography</a
+                  >).
+                </p>
+              </div>
+              <!-- END .twelve.columns -->
+            </div>
+            <!-- END .row.wrapper -->
+          </div>
+          <!-- END .twelve.columns -->
         </div>
-        <!-- END #doc -->
-</body>
-
+        <!-- END #.row -->
+      </div>
+      <!-- END #doc -->
+    </div>
+  </body>
 </html>
